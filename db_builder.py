@@ -28,7 +28,7 @@ fObj.close()
 
 
 # courses TABLE
-q = "CREATE TABLE courses (code TEXT, id INTEGER, mark INTEGER)"
+q = "CREATE TABLE courses (code TEXT, mark INTEGER, id INTEGER)"
 c.execute(q)
 
 fObj = open("courses.csv")
