@@ -40,6 +40,9 @@ for k in d2:
 fObj.close()
 
 #==========================================================
+
+
+
 db.commit() #save changes
 db.close()  #close database
 
